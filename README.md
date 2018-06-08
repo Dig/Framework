@@ -31,3 +31,9 @@ Altis Life RPG by AsYetUntitled is licensed under a [Creative Commons Attributio
         <img src="https://img.shields.io/badge/Discord-Join%20chat%20→-738bd7.svg" alt="Join the chat at https://discord.gg/ajGUDSH">
     </a>
 </p>
+
+# My Updates:
+  - Cargo Missions
+  <img src="https://felfire.me/RhTJyBvNb2.png">
+  - ATM updated to use the new slider function
+  <img src="https://felfire.me/m0YrTxkUNj.png">
