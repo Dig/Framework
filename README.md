@@ -35,5 +35,5 @@ Altis Life RPG by AsYetUntitled is licensed under a [Creative Commons Attributio
 # My Updates:
   - Cargo Missions
   <img src="https://felfire.me/RhTJyBvNb2.png">
-  - ATM updated to use the new slider function ``` [min, max, increment, defaultValue, callback] call life_fnc_getNumber ```
+  - ATM updated to use the new slider function
   <img src="https://felfire.me/m0YrTxkUNj.png">
