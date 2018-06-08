@@ -59,25 +59,27 @@ for "_i" from 0 to 1 step 0 do {
     //Extras
     if (LIFE_SETTINGS(getNumber,"escapeMenu_displayExtras") isEqualTo 1) then {
         private _topButton = CONTROL(49,2);
-        _topButton ctrlEnable false;
-        _topButton ctrlSetText format ["%1",LIFE_SETTINGS(getText,"escapeMenu_displayText")];
+        _topButton ctrlEnable true;
+        _topButton ctrlSetText "CONTINUE";
+        _topButton buttonSetAction "closeDialog 0;";
+
         _saveButton ctrlEnable false;
-        _saveButton ctrlSetText format ["Player UID: %1",getPlayerUID player];
+        _saveButton ctrlSetText "SAVE";
     };
 
     //Block off our buttons first.
     _abortButton ctrlEnable false;
     _respawnButton ctrlEnable false;
     _fieldManual ctrlEnable false; //Never re-enable, blocks an old script executor.
-    _fieldManual ctrlShow false;
+    _fieldManual ctrlShow true;
 
     _usebleCtrl = call _canUseControls;
     _usebleCtrl spawn _escSync;
-    
+
     if (_usebleCtrl) then {
         _respawnButton ctrlEnable true; //Enable the button.
     };
-    
+
     waitUntil {isNull (findDisplay 49) || {!alive player}};
     if (!isNull (findDisplay 49) && {!alive player}) then {
         (findDisplay 49) closeDisplay 2;
