@@ -46,6 +46,7 @@ class Life_Client_Core {
         class escortAction {};
         class gather {};
         class getDPMission {};
+        class getNumber {};
         class gutAnimal {};
         class healHospital {};
         class impoundAction {};

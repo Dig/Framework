@@ -66,16 +66,6 @@ class Life_atm_management {
             h = (1 / 25);
         };
 
-        class moneyEdit: Life_RscEdit {
-            idc = 2702;
-            text = "1";
-            sizeEx = 0.030;
-            x = 0.4;
-            y = 0.41;
-            w = 0.2;
-            h = 0.03;
-        };
-
         class PlayerList: Life_RscCombo {
             idc = 2703;
             x = 0.4;
